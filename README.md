@@ -5,7 +5,7 @@ This is a python code package related to the following article: H.Luo, U. Demirh
 Utilizing radar sensing for assisting communication has attracted increasing interest thanks to its potential in dynamic environments. A particularly interesting problem for this approach appears in the vehicle-to-vehicle (V2V) millimeter wave and terahertz communication scenarios, where the narrow beams change with the movement of both vehicles. To address this problem, in this work, we develop a radar-aided beam-tracking framework, where a single initial beam and a set of radar measurements over a period of time are utilized to predict the future beams after this time duration. Within this framework, we develop two approaches with the combination of various degrees of radar signal processing and machine learning. To evaluate the feasibility of the solutions in a realistic scenario, we test their performance on a real-world V2V dataset. Our results indicated the importance of high angular resolution radar for this task and affirmed the potential of using radar for the V2V beam management problems.
 
 # Code Package Content
-The scripts for generating the results of the end-to-end ML solution in the paper. For the beam tracking with transmitter identification, please refer to this [branch](https://). This script adopts Scenario 38 of DeepSense 6G dataset.
+The scripts for generating the results of the end-to-end ML solution in the paper. For the beam tracking with transmitter identification, please refer to this [branch](https://github.com/LacoLuo/V2V-Radar-Beam-Tracking/tree/Tx_Identification). This script adopts Scenario 38 of DeepSense 6G dataset.
 
 **To reproduce the results, please follow these steps:**
 
