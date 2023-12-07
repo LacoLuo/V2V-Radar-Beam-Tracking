@@ -76,7 +76,7 @@ def preprocess(args):
     device = torch.device('cuda:0')
 
     # Read the csv file
-    csv_file = 'scenario38_selected.csv'
+    csv_file = 'scenario36_selected.csv'
     csv_filename = csv_file.split('.')[0]
 
     df = pd.read_csv(csv_file)
