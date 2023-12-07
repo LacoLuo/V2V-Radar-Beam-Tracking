@@ -111,7 +111,7 @@ def inference(config, model, data_loader, device, mode='valid', loss_function=No
 
             top1_acc += torch.sum(pred_beam.argmax(1) == label_beam).item()
 
-        batch_size = next_beam.size(0)
+        batch_size = label_beam.size(0)
         n += batch_size
 
     if mode == 'valid':

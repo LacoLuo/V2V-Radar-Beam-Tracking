@@ -226,7 +226,7 @@ if __name__ == '__main__':
     x.save_file(data_path_csv_column=data_path_csv_column)
     x.calculate_sample_hold_accuracy('all')
 
-    x.save_split_files(split=(0.7, 0, 0.3),
+    x.save_split_files(split=(0.7, 0.1, 0.2),
                        data_path_csv_column=data_path_csv_column,
                        label_name=label_name,
                        sequence_split=sequence_split)
