@@ -61,7 +61,9 @@ python inference.py \
 If you have any questions regarding the code and the used dataset, please write to [DeepSense 6G dataset forum](https://deepsense6g.net/forum/) or contact [Hao Luo](mailto:h.luo@asu.edu)
 
 # License and Referencing
-This code package is licensed under a[ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you in any way use this code for research that results in publications, please cite our original article:
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+If you in any way use this code for research that results in publications, please cite our original article:
 > H. Luo, U. Demirhan and A. Alkhateeb, "Millimeter Wave V2V Beam Tracking using Radar: Algorithms and Real-World Demonstration," 2023 31st European Signal Processing Conference (EUSIPCO), Helsinki, Finland, 2023, pp. 740-744, doi: 10.23919/EUSIPCO58844.2023.10289752.
 
 If you use the [DeepSense 6G dataset](https://deepsense6g.net), please also cite our dataset article:
